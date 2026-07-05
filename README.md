@@ -35,13 +35,10 @@ Go to [Releases](../../releases) and download `Quick Tabs Launcher Setup 1.0.0.e
 ## Screenshots
 
 ### Main UI
-![Main UI](assets/screenshot-main.png)
+![Main UI](assets/1.jpg)
 
 ### Settings
-![Settings](assets/screenshot-settings.png)
-
-### Themes
-![Themes](assets/screenshot-themes.png)
+![Settings](assets/2.jpg)
 
 ## Build from source
 
