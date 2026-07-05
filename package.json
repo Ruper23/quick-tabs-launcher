@@ -16,9 +16,19 @@
   "build": {
     "appId": "com.quicktabs.launcher",
     "productName": "Quick Tabs Launcher",
+    "artifactName": "${productName}-setup-${version}.${ext}",
     "win": {
       "target": "nsis",
       "icon": "assets/ql-logo.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Quick Tabs Launcher",
+      "allowElevation": false,
+      "allowToChangeInstallationDirectory": false
     },
     "files": [
       "main.js",
