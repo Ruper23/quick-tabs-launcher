@@ -1,0 +1,33 @@
+{
+  "name": "quick-tabs-launcher-electron",
+  "version": "1.0.0",
+  "description": "Electron wrapper for Quick Tabs Launcher",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.quicktabs.launcher",
+    "productName": "Quick Tabs Launcher",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/ql-logo.ico"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*",
+      "assets/**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    }
+  }
+}
